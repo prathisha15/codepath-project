@@ -1,0 +1,101 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: slategrey;
+  color: white;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+  font-style: italic;
+  color: #A4295B;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+  background: lightgreen;
+}
+
+#button2 {
+  background: lightblue;
+}
+
+#button3 {
+  background: pink;
+}
+
+#button4 {
+  background: lightyellow;
+}
+
+#button5 {
+  background: lightsalmon;
+}
+
+#button6 {
+  background: plum;
+}
+
+#button1:active, #button1.lit {
+  background: green;
+  background-image: url("https://cdn.glitch.com/8ee8e58d-a387-44d6-8e29-eb7c9141b277%2Fsnake.png?v=1616538356331");
+  white-space-collapse: discard;
+  background-size: 200px;
+  background-position: 0px -40px;
+  background-repeat: no-repeat;
+}
+
+#button2:active, #button2.lit {
+  background: blue;
+  background-image: url("https://cdn.glitch.com/8ee8e58d-a387-44d6-8e29-eb7c9141b277%2Fblueparrot.png?v=1616538249089");
+  white-space-collapse: discard;
+  background-size: 125px;
+  background-repeat: no-repeat;
+  background-position: 20px 3px;
+}
+
+#button3:active, #button3.lit {
+  background: red;
+  background-image: url("https://cdn.glitch.com/8ee8e58d-a387-44d6-8e29-eb7c9141b277%2Fparrot.png?v=1616538216172");
+  white-space-collapse: discard;
+  background-size: 175px;
+  background-repeat: no-repeat;
+}
+
+#button4:active, #button4.lit {
+  background: yellow;
+  background-image: url("https://cdn.glitch.com/8ee8e58d-a387-44d6-8e29-eb7c9141b277%2Fpanda.png?v=1616538155583");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#button5:active, #button5.lit {
+  background: darkorange;
+  background-image: url("https://cdn.glitch.com/8ee8e58d-a387-44d6-8e29-eb7c9141b277%2Ftiger.png?v=1616538088932");
+  background-position: 5px 5px;
+  background-size: 200px;
+  
+}
+
+#button6:active, #button6.lit {
+  background: darkviolet;
+  background-image: url("https://cdn.glitch.com/8ee8e58d-a387-44d6-8e29-eb7c9141b277%2Fmonkey.png?v=1616538293930");
+  background-repeat: no-repeat;
+  background-position: center;
+}
